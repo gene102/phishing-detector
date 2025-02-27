@@ -1,0 +1,78 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .email-input {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .analyze-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .analyze-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .risk-indicator {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .high-risk {
+    background-color: red;
+    color: white;
+  }
+  
+  .medium-risk {
+    background-color: orange;
+    color: white;
+  }
+  
+  .low-risk {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .safe-risk {
+    background-color: green;
+    color: white;
+  }
+  
