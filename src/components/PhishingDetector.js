@@ -290,7 +290,7 @@ const PhishingDetector = () => {
   return (
     <div className="container">
       <div className="header">
-        <h1 className="title">Advanced Phishing Email Detector</h1>
+        <h1 className="title">Phishing Email Detector</h1>
         <p className="subtitle">Analyze emails for phishing indicators, headers and suspicious URLs</p>
       </div>
       
